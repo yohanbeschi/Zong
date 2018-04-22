@@ -1,4 +1,4 @@
-include ":converter", ":core", ":demos", ":desktop", ":layout", ":midi-out", ":musicxml", ":musicxml-in", ":musicxml-layout", ":player", ":renderer", ":renderer-awt", ":renderer-javafx", ":test", ":tools", ":webserver"
+include ":converter", ":core", ":demos", ":desktop", ":layout", ":midi-out", ":musicxml", ":musicxml-in", ":musicxml-layout", ":player", ":renderer", ":renderer-awt", ":renderer-javafx", ":test", ":tools", ":vorbis-java", ":webserver"
 
 include "utils-base", "utils-gwt", "utils-kernel", "utils-jse", "utils-jsebase", "utils-test"
 include "utils-pdlib", "utils-serialize"  //TIDY: only needed for utils-test

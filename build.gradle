@@ -15,7 +15,6 @@ allprojects {
 
 	repositories {
 		mavenCentral()
-		maven { url "http://files.xenoage.com/maven2" }
 	}
 
 	plugins.withType(JavaPlugin).whenPluginAdded {

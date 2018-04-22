@@ -1,6 +1,8 @@
 package musicxmltestsuite;
 
 import musicxmltestsuite.report.VisualHtmlReport;
+
+import org.junit.Ignore;
 import org.junit.Test;
 
 
@@ -12,6 +14,7 @@ public class MusicXmlTestSuiteHtmlReport {
 		MusicXmlTestSuite.runWithHtmlStatusReport();
 	}
 
+	@Ignore
 	@Test public void visualHtmlReport()
 			throws Throwable{
 		VisualHtmlReport.run();
